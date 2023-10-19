@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xe lướt Miền Trung</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header"></header>
+    <script>
+      load("#header", "./templates/header-logined.html");
+    </script>
+
+    <!-- MAIN -->
+    <main class="product-page">
+      <div class="container">
+        <!-- Search bar -->
+        <div class="product-container">
+          <div class="search-bar d-none d-md-flex">
+            <input type="text" name="" id="" placeholder="Search for item" class="search-bar__input" />
+            <button class="search-bar__submit">
+              <img src="./assets/icons/search.svg" alt="" class="search-bar__icon icon" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Breadcrumbs -->
+        <div class="product-container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#!" class="breadcrumbs__link">
+                Xe lướt miền Trung
+                <img src="./assets/icons/arrow-right.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="breadcrumbs__link">
+                Honda
+                <img src="./assets/icons/arrow-right.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#!" class="breadcrumbs__link breadcrumbs__link--current"> Honda Civic </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Product info -->
+        <div class="product-container prod-info-content">
+          <div class="row">
+            <div class="col-5 col-xl-6 col-lg-12">
+              <div class="prod-preview">
+                <div class="prod-preview__list">
+                  <div class="prod-preview__item">
+                    <img src="./assets/img/product/civic.webp" alt="" class="prod-preview__img" />
+                  </div>
+                  <div class="prod-preview__item">
+                    <img src="./assets/img/product/civic-1.jpg" alt="" class="prod-preview__img" />
+                  </div>
+                  <div class="prod-preview__item">
+                    <img src="./assets/img/product/civic-2.jpg" alt="" class="prod-preview__img" />
+                  </div>
+                  <div class="prod-preview__item">
+                    <img src="./assets/img/product/civic-3.jpg" alt="" class="prod-preview__img" />
+                  </div>
+                </div>
+                <div class="prod-preview__thumbs">
+                  <img
+                    src="./assets/img/product/civic.webp"
+                    alt=""
+                    class="prod-preview__thumb-img prod-preview__thumb-img--current"
+                  />
+                  <img src="./assets/img/product/civic-2.jpg" alt="" class="prod-preview__thumb-img" />
+                  <img src="./assets/img/product/civic-1.jpg" alt="" class="prod-preview__thumb-img" />
+                  <img src="./assets/img/product/civic-3.jpg" alt="" class="prod-preview__thumb-img" />
+                </div>
+              </div>
+            </div>
+            <div class="col-7 col-xl-6 col-lg-12">
+              <form action="" class="form">
+                <section class="prod-info">
+                  <h1 class="prod-info__heading">HONDA CIVIC RS</h1>
+                  <div class="row">
+                    <div class="col-5 col-xxl-6 col-xl-12">
+                      <div class="prod-prop">
+                        <img src="./assets/icons/star.svg" alt="" class="prod-prop__icon" />
+                        <h4 class="prod-prop__title">Năm 2021</h4>
+                      </div>
+                      <label for="" class="form__label prod-info__label">Gói bảo hành</label>
+                      <div class="filter__form-group">
+                        <div class="form__tags">
+                          <button class="form__tag prod-info__tag">6 tháng</button>
+                          <button class="form__tag prod-info__tag">12 tháng</button>
+                          <button class="form__tag prod-info__tag">3 năm</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-7 col-xxl-6 col-xl-12">
+                      <div class="prod-props">
+                        <div class="prod-prop">
+                          <img src="./assets/icons/document.svg" alt="" class="prod-prop__icon icon" />
+                          <div>
+                            <h4 class="prod-prop__title">Thời hạn đăng kiểm</h4>
+                            <p class="prod-prop__desc">30/12/2023</p>
+                          </div>
+                        </div>
+                        <div class="prod-prop">
+                          <img src="./assets/icons/buy.svg" alt="" class="prod-prop__icon icon" />
+                          <div>
+                            <h4 class="prod-prop__title">Giao xe tận nơi</h4>
+                            <p class="prod-prop__desc">Từ 2 - 4 ngày làm việc</p>
+                          </div>
+                        </div>
+
+                        <div class="prod-info__card">
+                          <div class="prod-info__row">
+                            <span class="prod-info__price">Trả góp: 40 triệu/tháng</span>
+                            <span class="prod-info__tax">Lãi xuất 1%</span>
+                          </div>
+                          <p class="prod-info__total-price">799 triệu</p>
+                          <div class="prod-info__row">
+                            <button class="btn btn--primary prod-info__add-to-cart">Đặt cọc ngay</button>
+                            <button class="like-btn prod-info__like-btn">
+                              <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                              <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product content -->
+        <div class="product-container">
+          <div class="prod-tab">
+            <ul class="prod-tab__list">
+              <li class="prod-tab__item">Mô tả</li>
+              <li class="prod-tab__item">Tính năng</li>
+              <li class="prod-tab__item">Đánh giá</li>
+              <li class="prod-tab__item prod-tab__item--current">Tương tự</li>
+            </ul>
+            <div class="prod-tab__contents">
+              <div class="prod-tab__content">
+                <div class="prod-content">
+                  <h2 class="prod-content__heading">Đánh giá từ người dùng</h2>
+                  <div class="row row-cols-3">
+                    <!-- Review card 1 -->
+                    <div class="col">
+                      <div class="review-card">
+                        <div class="review-card__content">
+                          <img src="./assets/img/avatar/avatar-1.png" alt="" class="review-card__avatar" />
+                          <div class="review-card__info">
+                            <h4 class="review-card__title">Jakir Hussen</h4>
+                            <p class="review-card__desc">Xe đẹp, hợp thời trang !</p>
+                            <span class="review-card__day">20/10/2023</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Review card 2 -->
+                    <div class="col">
+                      <div class="review-card">
+                        <div class="review-card__content">
+                          <img src="./assets/img/avatar/avatar-2.png" alt="" class="review-card__avatar" />
+                          <div class="review-card__info">
+                            <h4 class="review-card__title">Jubed Ahmed</h4>
+                            <p class="review-card__desc">Xe này mạnh quá đi đua thì bao win :))</p>
+                            <span class="review-card__day">20/10/2023</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Review card 3 -->
+                    <div class="col">
+                      <div class="review-card">
+                        <div class="review-card__content">
+                          <img src="./assets/img/avatar/avatar-3.png" alt="" class="review-card__avatar" />
+                          <div class="review-card__info">
+                            <h4 class="review-card__title">Delwar Hussain</h4>
+                            <p class="review-card__desc">Great car !</p>
+                            <span class="review-card__day">20/10/2023</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="prod-tab__content prod-tab__content--current">
+                <div class="prod-content">
+                  <h2 class="prod-content__heading">Similar items you might like</h2>
+                  <div class="row row-cols-6 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-3">
+                    <!-- Product card 1 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Canival.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA CARNIVAL SIGNATURE 7S 2.2D</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 200.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">1T430TR</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2023</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 2 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Morning.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA MORNING MT</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 38.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">239 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2020</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 3 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Civic.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn like-btn--liked product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">HONDA CIVIC RS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 7.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">799 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 4 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/LUX A.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">VINFAST LUX A 2.0 PLUS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 37.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">569 triệu </span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 1 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Canival.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA CARNIVAL SIGNATURE 7S 2.2D</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 200.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">1T430TR</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2023</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 2 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Morning.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA MORNING MT</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 38.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">239 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2020</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 3 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Civic.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn like-btn--liked product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">HONDA CIVIC RS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 7.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">799 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 4 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/LUX A.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">VINFAST LUX A 2.0 PLUS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 37.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">569 triệu </span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+                    <!-- Product card 1 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Canival.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA CARNIVAL SIGNATURE 7S 2.2D</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 200.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">1T430TR</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2023</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 2 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Morning.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">KIA MORNING MT</a>
+                        </h3>
+                        <p class="product-card__brand">Số km : 38.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">239 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2020</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 3 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/Civic.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn like-btn--liked product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">HONDA CIVIC RS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 7.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">799 triệu</span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+
+                    <!-- Product card 4 -->
+                    <div class="col">
+                      <article class="product-card">
+                        <div class="product-card__img-wrap">
+                          <a href="./product-detail.html">
+                            <img src="./assets/img/product/LUX A.jpg" alt="" class="product-card__thumb" />
+                          </a>
+                          <button class="like-btn product-card__like-btn">
+                            <img src="./assets/icons/heart.svg" alt="" class="like-btn__icon icon" />
+                            <img src="./assets/icons/heart-red.svg" alt="" class="like-btn__icon--liked" />
+                          </button>
+                        </div>
+                        <h3 class="product-card__title">
+                          <a href="./product-detail.html">VINFAST LUX A 2.0 PLUS</a>
+                        </h3>
+                        <p class="product-card__brand">Số km: 37.000km</p>
+                        <div class="product-card__row">
+                          <span class="product-card__price">569 triệu </span>
+                          <img src="./assets/icons/star.svg" alt="" class="product-card__star" />
+                          <span class="product-card__score">2021</span>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer"></footer>
+    <script>
+      load("#footer", "./templates/footer.html");
+    </script>
+  </body>
+</html>

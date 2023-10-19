@@ -1,12 +1,13 @@
 {
-  "name": "project__uth_fi",
+  "name": "project-uth-fi",
   "version": "1.0.0",
-  "description": "# Project come from my Final internship",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass scss:assets/css -w"
+    "start": "sass scss:assets/css -w"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }
